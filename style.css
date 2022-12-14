@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Staatliches&display=swap');
+html{
+    scroll-behavior:smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    background-color: fff;
+    width: 100%;
+}
+h3{
+    display: none;
+}
+h2{
+    font-size: 40px;
+    margin-left: 70px;
+    font-family: "Roboto", sans-serif;
+}
+nav {
+    width: 50%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    font-family:"Montserrat";
+    width: 30%;
+}
+li:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+    transition: 1s;
+}
+.Portfolio{
+    font-weight:900
+}
+.mainFirsSection{
+    height: 80%;
+    background-image:url("./img/laranja\ azul\ recorte.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    color: fff;
+    display: flex;
+    margin-left: 70px;
+    font-size: 65px;
+    font-family:"Montserrat";
+    font-weight:ExtraBold;
+}
+main h2{
+   color: fff;
+   font-size: 35px;
+   font-weight: 100;
+   font-family:"Montserrat";
+   margin-left: 70px;
+   margin-top: 15px;
+   width: fit-content;
+   cursor: pointer;
+}
+main h2:hover{
+    border-bottom: solid;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.mainSecondSection{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 65px;
+}
+.mainSecondSection img{
+    width: 310px;
+    height: 310px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+section img:hover{
+    transition:1s;
+    transform: scale(1.1);
+}
+footer{
+    margin-top: 40px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(248, 244, 244);
+}
+.logos{
+    width: 25%;
+    height: 55%;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.face{
+    width: 10px;
+}
+footer img{
+    width: 20px;
+}
+footer h2{
+    width: 10%;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.Layout
+{
+    display: flex;
+}
+p{
+    font-family:"Montserrat";
+    font-weight: 400;
+    width: 55%;
+    font-size: 10px;
+    margin-right: 23%;
+}
+button{
+    display: none;
+}
+@media(max-width:800px) {
+    header{
+        width:100vw;
+        justify-content: start;
+    }
+    header nav{
+        display: none;
+    }
+    header h3{
+        display: flex;
+        width: 30%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        color: fff;
+        background-color: black;
+    }
+    header h2{
+       margin: 0;
+       margin-left: 5%;
+    }
+    .mainFirsSection{
+        background-repeat: no-repeat;
+        background-position: 80% 70px ;
+        display: flex;
+        height: 100%;
+}
+    main h1{
+        margin: 0;
+        font-size: 50px;
+        margin-top:80% ;
+        margin-left: 40px;
+    }
+    main h2{
+        font-size: 20px;
+        margin: 0;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    main{
+        width: 100vw;
+        }
+    .img1{
+        order: 10;}
+    .img2{
+        order: 8;}
+    .img3{
+        order: 3;}
+    .img4{
+        order: 6;}
+    .img5{
+        order: 1;}
+    .img6{
+        order: 7;}
+    .img7{
+        order: 4;}
+    .img{
+        order: 11;}
+    .img9{
+        order: 9;}
+    .img10{
+        order: 12;}
+    .img11{
+        order: 2;}
+    .img12{
+        order: 5;}
+    .mainSecondSection{
+        margin: 10px;
+        width: 95%;
+        padding-right: 25px;
+    }
+    footer{
+        width: 100vw;
+        height: 50vw;
+        display: flex;
+        flex-direction: column;
+    }
+   .Copyright{
+        display: flex;
+        width: 70%;  
+   }
+   .Layout{
+        flex-direction: column;
+        width: 80%;
+   }
+    .logos{
+        width: 83%;
+        height: 25%;
+        margin: 0;
+        background-color: aquamarine;
+    }
+    footer h2{
+        width: 75%;
+        margin:0;
+    }
+    footer p{
+        width: 70%;
+        height: 55%;
+        margin-bottom: 25px;
+        word-wrap: break-word;
+        font-size: 8px;
+    }
+    .botao{
+        margin: 0;
+        display: flex;
+        align-items:center;
+        justify-content: flex-start;
+        width: 30%;
+    }
+    button{
+        width: 80%;
+        height: 30px;
+        background-color:rgb(49, 46, 46) ;
+        font-family:"Montserrat";
+        font-size: 15px;   
+        display: flex; 
+        padding-top: 4px;
+    }
+    a{
+        text-decoration: none;
+        width: 200px;
+        height: 25px;
+        color: gray;
+    }
+
+}
